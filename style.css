@@ -74,7 +74,8 @@ button:hover{
     body{
         background: url(./images/bg-desktop.svg) no-repeat ;
         background-color: var(--Violet);
-        background-size: 90%;
+        background-size: cover;
+        min-height: 100vh;
         
 
         
@@ -95,8 +96,8 @@ button:hover{
         position: absolute;
         padding-top: 3em;
         text-align: end;
-        right: 40px;
-        bottom: 40px;
+        right: 20px;
+        bottom: 20px;
        
     
     }
